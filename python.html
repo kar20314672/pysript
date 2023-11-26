@@ -11,32 +11,8 @@
   Hello world! <br>
   This is the current date and time, as computed by Python:
   <py-script>
-    import math
-
-    def calculate_radius_from_circumference(circumference):
-        """
-        Calculate the radius of a circle given its circumference.
-        Formula: radius = circumference / (2 * pi)
-        """
-        radius = circumference / (2 * math.pi)
-        return radius
-
-    def calculate_radius_from_area(area):
-        """
-        Calculate the radius of a circle given its area.
-        Formula: radius = sqrt(area / pi)
-        """
-        radius = math.sqrt(area / math.pi)
-        return radius
-
-    # Example usage:
-    circumference = 20.0
-    area = 25.0
-
-    radius_from_circumference = calculate_radius_from_circumference(circumference)
-    radius_from_area = calculate_radius_from_area(area)
-
-    result = f"Radius calculated from circumference: {radius_from_circumference}\nRadius calculated from area: {radius_from_area}"
-    result
+  <body><py-script>
+    print("hello world")
   </py-script>
+  </body>
 </section>
